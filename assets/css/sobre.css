@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff, #2e7d32);
+  font-family: 'Arial';
+  color: #333;
+  overflow-x: hidden;
+}
+
+
+/* Header */
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.logo img {
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.sitename {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+  font-weight: bold;
+  color: #ff8c00;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff1493;
+  transform: scale(1.1);
+}
+h5 {
+  font-size: 1.7rem;
+  color: #198754  ;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.dropdown ul {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+}
+
+.dropdown:hover ul {
+  display: block;
+}
+
+/* --- Contenedor Principal y Título --- */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2.text-center {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/* --- Formulario de Publicación --- */
+form.bg-white {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-control,
+.form-select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+/* Para el input tipo file se le da un poco menos de padding */
+input[type="file"].form-control {
+  padding: 5px;
+}
+
+/* Estilos para radio buttons */
+.form-check {
+  margin-bottom: 10px;
+}
+
+.form-check-input {
+  margin-right: 5px;
+}
+
+/* --- Botón de Publicación --- */
+.btn-success {
+  background-color: #28a745 !important;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+  width: 100%;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838 !important;
+}
+
+/* Área de información de contacto */
+.footer {
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.footer .contact-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.footer .contact-info p {
+  margin: 0.25rem 0;
+}
+
+.footer .social-media a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #198754;
+  transition: color 0.3s;
+}
+
+.footer .social-media a:hover {
+  color: #145c34;
+}
+
+.footer .copyright {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-top: 1rem;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sitename {
+    font-size: 1.2rem;
+  }
+
+  main h1 {
+    font-size: 2rem;
+  }
+}
+
+main h3 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+p1 {
+  font-size: 1.2rem; /* Puedes aumentar a 1.3rem o más si lo deseas */
+  line-height: 1.6;
+  text-align: justify;
+  color: #000000;
+}
+c {
+  font-size: 1rem; /* Puedes aumentar a 1.3rem o más si lo deseas */
+  line-height: 1.6;
+  text-align: justify;
+  color: #000000;
+}
+b {
+  font-size: 1.2rem; /* Puedes aumentar a 1.3rem o más si lo deseas */
+  line-height: 1.6;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+
+main ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+main li {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+
+/* Responsive: ordena las secciones con imagen abajo en pantallas pequeñas */
+@media (max-width: 768px) {
+  .row.align-items-center.flex-md-row-reverse {
+    flex-direction: column !important;
+  }
+}

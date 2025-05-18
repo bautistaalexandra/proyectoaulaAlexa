@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoTrueque</title>
+  <link rel="icon" type="image/png" href="assets/img/logo.png" />
+
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS personalizado -->
+  <link href="assets/css/html.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+     <!-- Header -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                <img src="assets/img/logo.jpeg" alt="Logo de EcoTrueque">
+                <span class="sitename fw-bold text-success">EcoTrueque</span>
+            </a>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-success" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-success" href="#" id="zonaDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Zona
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="zonaDropdown">
+                                    <li><a class="dropdown-item" href="categorias-todas.html">General</a></li>
+                                    <li><a class="dropdown-item" href="categorias-estudiantil.html">Estudiantil</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="publicar.html">Publicar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="membresia.html">Membresia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="contact.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="about.html">Sobre Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+  <!-- Contenido principal -->
+  <main class="container mt-5">
+    <h1>Bienvenido a EcoTrueque</h1>
+    <p>Intercambia o dona, todo tiene una segunda vida.
+      Plataforma de intercambio y donación que promueve el consumo responsable y la economía circular.</p>
+  </main>
+
+  <!-- Carrusel de Imágenes -->
+  <div id="carouselExample" class="carousel slide mx-auto my-4" data-bs-ride="carousel" data-bs-interval="4000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/photo1.png" class="d-block w-100" alt="Imagen 1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/photo2.png" class="d-block w-100" alt="Imagen 2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/photo3.png" class="d-block w-100" alt="Imagen 3">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/photo4.png" class="d-block w-100" alt="Imagen 4">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Sección: ¿En qué podemos ayudarte? -->
+  <section class="container my-5">
+    <h2 class="text-center text-success mb-4">¿En qué podemos ayudarte?</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Intercambiar Artículos</h6>
+            <p1 class="card-text">¿Tienes artículos que ya no usas pero están en buen estado? Intercámbialos por otros
+              que necesites.</p1>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Donar Artículos</h6>
+            <p1 class="card-text">Dona lo que ya no necesitas. Alguien más puede darle un buen uso y juntos cuidamos el
+              planeta.</p1>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Encontrar lo que necesitas</h6>
+            <p1 class="card-text">Explora miles de artículos disponibles para intercambio o donación. ¡Encuentra justo lo
+              que buscas!</p1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Sección: ¿Qué hacemos? -->
+  <section class="container my-5">
+    <h2 class="text-center text-success mb-4">¿Qué hacemos?</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Intercambio sostenible</h6>
+            <p1 class="card-text">Creamos un entorno confiable para que usuarios puedan intercambiar artículos con
+              tranquilidad.</p1>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Espacio seguro</h6>
+            <p1 class="card-text">Creamos un entorno confiable para que usuarios puedan intercambiar o donar sus artículos con
+              tranquilidad y puedan ayudar a personas que puuedan darle una segunda vida a las cosas.</p1>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h6 class="">Educación ambiental</h6>
+            <p1 class="card-text">Concientizamos sobre el impacto del consumo y la importancia de reutilizar, con el fin de hacer un cambio y tener un mundo más sostenible</p1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrusel de Testimonios (sin botones) -->
+  <div id="testimonialCarousel" class="carousel slide mx-auto my-4" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <!-- Testimonio 1 -->
+      <div class="carousel-item active">
+        <div class="testimonial text-center p-4">
+          <p>"¡Increíble labor! Gracias a EcoTrueque, como persona de bajos recursos puedo tener a mi hijo con ropa de
+            calidad sin necesidad de comprar nuevo."</p>
+          <h5>María González</h5>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonio 2 -->
+      <div class="carousel-item">
+        <div class="testimonial text-center p-4">
+          <p>"EcoTrueque me ha permitido ahorrar y brindar a mi familia lo que necesita. ¡Una labor destacada!"</p>
+          <h5>Juan Pérez</h5>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonio 3 -->
+      <div class="carousel-item">
+        <div class="testimonial text-center p-4">
+          <p>"Como padre, agradezco a EcoTrueque por ayudarme a vestir a mis hijos sin tener que gastar de más.
+            ¡Excelente iniciativa!"</p>
+          <h5>Carlos Ramírez</h5>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+      </div>
+      <!-- Testimonio 4 -->
+      <div class="carousel-item">
+        <div class="testimonial text-center p-4">
+          <p>"Con EcoTrueque, cambiar y donar objetos es sencillo y eficaz. Nunca cambien, feliz de tenerlos ¡Totalmente
+            recomendado!"</p>
+          <h5>Ana López</h5>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Notamos que hemos eliminado los botones de control para que solo se reproduzca automáticamente -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer text-center mt-5 p-4 bg-light">
+    <div class="contact-info">
+      <h3>EcoTrueque</h3>
+      <p>Calle 10N #33-40 - Aguachica</p>
+      <p>Tel.: +1 5589 55488 55</p>
+      <p>Email: info@mail.com</p>
+    </div>
+    <div class="social-media">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" title="Facebook"><i
+          class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"><i
+          class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i
+          class="bi bi-linkedin"></i></a>
+    </div>
+    <div class="copyright">
+      <p>© 2025 EcoTrueque - Plantilla descargada desde Bootstrapmade, con fines únicamente académicos. (Jesus
+        Chinchilla, Alexandra Bautista, Maireth Marquez- Calletena López Baleta)</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

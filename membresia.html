@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Sobre Nosotros | EcoTrueque</title>
+    <meta name="description" content="Publica un objeto para intercambiar o donar en EcoTrueque.">
+    <meta name="keywords" content="trueque, donaciones, intercambio, objetos, sostenibilidad">
+
+    <link rel="icon" type="image/png" href="assets/img/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+    <!-- CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/mem.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header" class="header d-flex align-items-center sticky-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+                <img src="assets/img/logo.jpeg" alt="Logo de EcoTrueque">
+                <span class="sitename fw-bold text-success">EcoTrueque</span>
+            </a>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-success" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-success" href="#" id="zonaDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Zona
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="zonaDropdown">
+                                    <li><a class="dropdown-item" href="categorias-todas.html">General</a></li>
+                                    <li><a class="dropdown-item" href="categorias-estudiantil.html">Estudiantil</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="publicar.html">Publicar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="membresia.html">Membresia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="contact.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-success" href="about.html">Sobre Nosotros</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Membresías -->
+    <main class="container my-5">
+        <h2 class="text-center mb-4">Elige tu Membresía</h2>
+        <div class="row justify-content-center">
+
+            <!-- Membresía Gratis -->
+            <div class="col-md-5 mb-4">
+                <div class="card border-success h-100 shadow">
+                    <div class="card-header bg-success text-white text-center fw-bold fs-4">GRATIS</div>
+                    <div class="card-body">
+                        <h5 class="card-title text-success text-center">Ideal para comenzar</h5>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-check-circle-fill text-success"></i> Reclamar <strong>1 objeto de
+                                    donación por semana</strong></li>
+                            <li><i class="bi bi-arrow-repeat text-success"></i> Hasta <strong>3 intercambios por
+                                    mes</strong></li>
+                            <li><i class="bi bi-box-arrow-up text-success"></i> Publicar <strong>hasta 3
+                                    objetos</strong> por mes</li>
+                            <li><i class="bi bi-search text-success"></i> Acceso a categorías y zona estudiantil</li>
+                            <li><i class="bi bi-envelope-fill text-success"></i> Mensajería habilitada</li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-outline-success" disabled>Plan Actual</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Membresía Premium -->
+            <div class="col-md-5 mb-4">
+                <div class="card border-warning h-100 shadow">
+                    <div class="card-header bg-warning text-dark text-center fw-bold fs-4">PREMIUM</div>
+                    <div class="card-body">
+                        <h5 class="card-title text-warning text-center">¡Libertad total!</h5>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li><i class="bi bi-infinity text-warning"></i> <strong>Intercambios y publicaciones
+                                    ilimitadas</strong></li>
+                            <li><i class="bi bi-gift-fill text-warning"></i> Reclamar <strong>objetos de donación sin
+                                    límite</strong></li>
+                            <li><i class="bi bi-chat-dots-fill text-warning"></i> <strong>Mensajería directa
+                                    prioritaria</strong></li>
+                            <li><i class="bi bi-megaphone-fill text-warning"></i> <strong>Publicaciones
+                                    destacadas</strong> en listados</li>
+                            <li><i class="bi bi-bell-fill text-warning"></i> <strong>Notificaciones
+                                    personalizadas</strong></li>
+                            <li><i class="bi bi-stars text-warning"></i> Acceso anticipado a funciones beta y eventos
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-warning">$9.90 / mes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Tabla Comparativa Mejorada -->
+    <section class="container my-5">
+        <h3 class="text-center mb-4 titulo-premium">¿Por qué obtener Premium?</h3>
+        <div class="table-responsive shadow rounded">
+            <table class="table table-hover text-center align-middle table-bordered custom-table">
+                <thead class="table-dark">
+                    <tr>
+                        <th class="bg-dark text-white">Característica</th>
+                        <th class="bg-success text-white">Gratis</th>
+                        <th class="bg-warning text-dark">Premium</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Reclamar objetos de donación</td>
+                        <td>1 por semana</td>
+                        <td>Ilimitado</td>
+                    </tr>
+                    <tr>
+                        <td>Intercambios al mes</td>
+                        <td>Hasta 3</td>
+                        <td>Ilimitado</td>
+                    </tr>
+                    <tr>
+                        <td>Publicaciones por mes</td>
+                        <td>Hasta 3</td>
+                        <td>Ilimitado</td>
+                    </tr>
+                    <tr>
+                        <td>Acceso a categorías y zona estudiantil</td>
+                        <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                        <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Mensajería entre usuarios</td>
+                        <td>Estándar</td>
+                        <td>Prioritaria</td>
+                    </tr>
+                    <tr>
+                        <td>Publicaciones destacadas</td>
+                        <td><i class="bi bi-x-circle-fill text-danger fs-5"></i></td>
+                        <td><i class="bi bi-check-circle-fill text-warning fs-5"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Notificaciones personalizadas</td>
+                        <td><i class="bi bi-x-circle-fill text-danger fs-5"></i></td>
+                        <td><i class="bi bi-check-circle-fill text-warning fs-5"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Acceso a funciones beta y eventos</td>
+                        <td><i class="bi bi-x-circle-fill text-danger fs-5"></i></td>
+                        <td><i class="bi bi-check-circle-fill text-warning fs-5"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer text-center mt-5 p-4 bg-light">
+        <div class="contact-info">
+            <h3>EcoTrueque</h3>
+            <p>Calle 10N #33-40 - Aguachica</p>
+            <p>Tel.: +1 5589 55488 55</p>
+            <p>Email: info@mail.com</p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" title="Facebook"><i
+                    class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"><i
+                    class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i
+                    class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="copyright">
+            <p>© 2025 EcoTrueque - Plantilla descargada desde Bootstrapmade, con fines únicamente académicos. (Jesus
+                Chinchilla, Alexa, Maireth - Calletena López Baleta)</p>
+        </div>
+    </footer>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
